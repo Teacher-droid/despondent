@@ -1,2 +1,0 @@
-# despondent
-JS project

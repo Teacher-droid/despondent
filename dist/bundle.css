@@ -1,0 +1,71 @@
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./src/style/index.scss ***!
+  \*************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "Big Noodles";
+  src: url(e2ebffa44fbb63381589.ttf);
+}
+h1 {
+  color: #ff1414;
+  font-family: "Big Noodles";
+}
+
+h2 {
+  color: white;
+  font-family: "Big Noodles";
+}
+
+body {
+  background-color: #242222;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.redline {
+  background-color: #ff1414;
+  height: 10px;
+  width: 10%;
+}
+
+footer {
+  padding-left: 30px;
+}
+
+p {
+  color: white;
+}
+
+.thetitle {
+  width: fit-content;
+}
+
+.notonborders {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.searchbar {
+  border-radius: 50px;
+  height: 2em;
+  width: 90%;
+  background-color: #242222;
+  border: 2px solid #f0eeee;
+  padding: 10px 20px;
+  color: #d8caca;
+}
+
+.writing {
+  color: white;
+  font-family: "Big Noodles";
+  text-decoration: none;
+}
