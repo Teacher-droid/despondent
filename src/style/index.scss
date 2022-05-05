@@ -1,0 +1,73 @@
+$color-red: rgb(255, 20, 20);
+$dark-side: rgb(36, 34, 34);
+$write-white: rgb(255, 255, 255);
+
+@font-face {
+  font-family: 'Big Noodles';
+  src: url('../assets/fonts/big_noodle_titling.ttf');
+}
+
+h1 {
+  color: $color-red;
+  font-family: 'Big Noodles';
+}
+
+h2 {
+  color: $write-white;
+  font-family: 'Big Noodles';
+}
+
+body {
+  background-color: $dark-side;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.redline {
+  background-color: $color-red;
+  height: 10px;
+  width: 10%;
+}
+
+footer {
+  padding-left: 30px;
+}
+
+p {
+  color: $write-white;
+}
+
+.thetitle {
+  width: fit-content;
+}
+
+.notonborders {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.searchbar {
+  border-radius: 50px;
+  height: 2em;
+  width: 90%;
+  background-color: $dark-side;
+  border: 2px solid rgb(240, 238, 238);
+  padding: 10px 20px;
+  color: rgb(216, 202, 202);
+}
+
+.writing {
+  color: $write-white;
+  font-family: 'Big Noodles';
+  text-decoration: none;
+}
