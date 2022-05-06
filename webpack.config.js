@@ -15,6 +15,13 @@ module.exports = (env) => {
             publicPath: '',
         },
     
+        devServer: {
+            static: path.resolve(__dirname, ''),
+            open: true,
+            port: 8000,
+            hot : true
+          },
+
         module: {
             rules: [
                 {
