@@ -17,7 +17,7 @@ application up and running.
 
 `Generate` the assets through `npm run build`
 
-`Launch` the "index.html" via  running a live server page.
+`Launch` the "index.html" via  running a live server page *or* using your terminal through `npm run server`
 
 
 <hr>
